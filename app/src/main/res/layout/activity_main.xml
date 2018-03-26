@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gjsilalahi.absensibisa.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SELAMAT DATANG"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:text="AHMAD FALI OKLILAS, S.T., MT."
+            android:layout_gravity="center"
+            android:id="@+id/tvDosen"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MATAKULIAH"
+            android:layout_marginTop="40dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INTERAKSI MANUSIA DAN KOMPUTER"/>
+
+
+        <CalendarView
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:id="@+id/cvTanggal">
+        </CalendarView>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/tvTanggal"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanggal" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Mahasiswa"
+            android:layout_marginTop="20dp"/>
+
+        <Spinner
+            android:id="@+id/spNamaMhs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nomor Induk Mahasiswa"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/tvNIMbaru"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NIM"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kelas Mahasiswa"
+            android:layout_marginTop="20dp"/>
+
+        <Spinner
+            android:id="@+id/spKelas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"></Spinner>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Keterangan" />
+
+        <Spinner
+            android:id="@+id/spKet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+        </Spinner>
+
+        <Button
+            android:id="@+id/btnInsertData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INSERT" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VIEW"
+            android:id="@+id/btnView"/>
+    </LinearLayout>
+
+</ScrollView>
